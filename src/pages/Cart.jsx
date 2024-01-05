@@ -57,7 +57,7 @@ const Cart = () => {
                     TOTAL ITEMS : {cart.length}
                   </h1>
                   <h1 className="text-xl dark:text-white md:text-5xl font-bold text-slate-500">
-                    TOTAL PRICE : ₹ {total}
+                    TOTAL PRICE : TL{total}
                   </h1>
                 </div>
                 <div>

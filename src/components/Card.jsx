@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Card = ({ shoe }) => {
   const cart = useSelector((state) => state.cart);
-  // console.log(shoe);
+  
   const img = shoe.original_picture_url;
   const price = shoe.retail_price_cents;
   const desc = shoe.story_html;
@@ -63,7 +63,7 @@ const Card = ({ shoe }) => {
                 Add to Cart
               </button>
             )}
-            <span className="text-xl font-semibold">₹ {price}</span>
+            <span className="text-xl font-semibold">TL{price}</span>
           </div>
         </div>
       </div>
